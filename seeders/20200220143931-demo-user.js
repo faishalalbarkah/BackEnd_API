@@ -1,5 +1,7 @@
 "use strict";
 
+const dateTime = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
     /*
@@ -20,8 +22,8 @@ module.exports = {
           password: "wakwaw",
           phone: "085921311291",
           address: "jauh di jonggol cok",
-          createdAt: "0000-00-00",
-          updatedAt: "0000-00-00"
+          createdAt: dateTime,
+          updatedAt: dateTime
         }
       ],
       {}
