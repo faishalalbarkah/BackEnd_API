@@ -1,5 +1,6 @@
 "use strict";
 
+const date = new Date();
 const dateTime = `${date.getFullYear()}-${date.getMonth()}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 
 module.exports = {
