@@ -53,6 +53,9 @@ app.group("/api/v1", router => {
   router.get("/match", authenticated, MatchController.TrueMat);
 });
 
+app.get("/", (req, res) => {
+  res.send("Success");
+});
 // //use group routes here
 // app.group("/api/v2", router => {
 //   router.get("/todos", (req, res) => {
