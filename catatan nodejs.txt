@@ -1,0 +1,29 @@
+ synchronous adalah sebuah operasi akan dijalankan setelah operasi sebelumnya selesai dijalankan alias berurutan. 
+Sedangkan asynchronous sebaliknya, asynchronous tidak perlu menunggu 
+operasi sebelumnya selesai untuk mengeksekusi operasi setelahnya. 
+
+Callback
+Callback function atau callback 
+(biasa disingkat dengan cb) adalah salah satu metode yang
+ paling umum yang digunakan untuk menghandle return value dari 
+operasi asynchoronous.
+
+1 user memiliki pet
+ users 
+hasmany(models.pets){ //hasmany 1 ke bnyk
+forignket:nama_field/foriegn
+as: mypet
+}
+
+Pets
+belongsTo(models.users){ //one to one
+
+many to many membutuhkan table trough //agarbisa relasi di1 table
+
+pivot table/trough		
+-match
+
+associate
+match.belongstomany(pet,{
+throug:'nama foreign nya'/ pet_id
+sourcekey: 'pet_liked_id'
