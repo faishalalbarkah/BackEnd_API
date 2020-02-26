@@ -19,7 +19,7 @@ module.exports = {
         {
           pet_id: "1",
           pet_id_liked: "1",
-          status: "janda",
+          status: false,
           createdAt: dateTime,
           updatedAt: dateTime
         }
