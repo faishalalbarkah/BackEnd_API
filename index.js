@@ -12,7 +12,7 @@ const app = express();
 //define the server port
 const port = process.env.PORT || 5001;
 
-app.use(cors());
+// app.use(cors());
 
 //allow this app to receive incoming json request
 app.use(bodyParser.json());
