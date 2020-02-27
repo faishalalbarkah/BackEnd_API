@@ -97,10 +97,10 @@ exports.Update = (req, res) => {
           { model: Age, attributes: ["id", "name"] },
           { model: User, attributes: ["id", "breeder", "address", "phone"] }
         ]
-      }).then(data => {
+      }).then(Resdata => {
         res.status(400).send({
           message: "Success",
-          data
+          Resdata
         });
       });
     }
