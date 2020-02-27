@@ -29,7 +29,7 @@ const SpesiesController = require("./controllers/Spesies");
 const PetController = require("./controllers/Pet");
 const UserController = require("./controllers/User");
 const PaymentController = require("./controllers/Payment");
-const MatchController = require("./controllers/match");
+const MatchController = require("./controllers/Match");
 
 app.group("/api/v1", router => {
   //todos API, call the controllers here in the callback
