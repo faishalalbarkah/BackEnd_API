@@ -10,7 +10,7 @@ const { authenticated } = require("./middleware");
 //use express in app variable
 const app = express();
 //define the server port
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 3200;
 
 // app.use(cors());
 

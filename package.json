@@ -1,12 +1,15 @@
 {
   "name": "tasks_backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "backEnd"
+  ],
   "author": "faishal AB",
   "license": "ISC",
   "dependencies": {
