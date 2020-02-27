@@ -19,7 +19,7 @@ exports.Insert = (req, res) => {
     spesies_id: spesiesId,
     age_id: ageId
   };
-  console.log(dataPet);
+  // console.log(dataPet);
   Pet.create(dataPet).then(resPet => {
     // res.send(resPet);
     User.findOne({ where: { id: userId } }).then(userData => {

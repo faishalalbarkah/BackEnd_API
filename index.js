@@ -17,6 +17,11 @@ const port = process.env.PORT || 5001;
 //allow this app to receive incoming json request
 app.use(bodyParser.json());
 
+app.get("/", (req, res) => {
+  //res means response, and it send string "Hello Express!" to the API
+  res.send("Hello Jancok");
+});
+
 //import the controller
 const LoginController = require("./controllers/Login");
 const RegisterController = require("./controllers/Register");
